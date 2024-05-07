@@ -16,6 +16,11 @@ function setup() {
 
   botonActualizar = createButton('Actualizar'); // Posición del botón
   botonActualizar.mousePressed(actualizarHoras);
+  inputHora.style('width', '150px'); // Ancho personalizado
+  inputHora.style('font-size', '16px'); // Tamaño de fuente
+  inputHora.style('padding', '5px'); // Espaciado interno
+  inputHora.style('margin-right', '10px');
+  inputHora.style('border-radius','10px'); 
 }
 
 function draw() {
